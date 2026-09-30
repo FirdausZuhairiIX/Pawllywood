@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Pawllywood</title>
+<meta name="description" content="Contact Pawllywood about Club membership, AURA Pet Resort stays, pet birthday parties, events, influencer management or AI pet movie posters.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Pawllywood home"><img src="images/logo.png" alt="Pawllywood, a luxury lifestyle brand for pets" width="480" height="136"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="prompt-library.html">Prompt Library</a></li>
+      <li><a class="btn btn-velvet" href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <img src="images/resort-bedroom.png" alt="A luxury pet suite with a ginger cat exploring" width="1672" height="941">
+    <div class="wrap">
+      <h1>Let's plan your pet's star turn.</h1>
+      <p>Ask about membership, a resort stay, a party, an event or a poster. Tell us a little about your pet and we will point you to the right start.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap contact-grid">
+      <form class="form" id="enquiry" novalidate>
+        <div class="two">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="two">
+          <div class="field"><label for="pet">Your pet's name</label><input id="pet" name="pet" type="text"></div>
+          <div class="field">
+            <label for="topic">What are you asking about?</label>
+            <select id="topic" name="topic" required>
+              <option value="">Choose one</option>
+              <option>Club membership</option>
+              <option>AURA Pet Resort stay</option>
+              <option>Pet birthday party</option>
+              <option>Pet dating and Club events</option>
+              <option>Pet influencer management</option>
+              <option>AI pet movie poster</option>
+              <option>Brand collaboration</option>
+              <option>Something else</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label for="message">Your message</label><textarea id="message" name="message" required></textarea></div>
+        <div><button class="btn btn-velvet" type="submit" style="cursor:pointer;font:inherit;font-weight:500">Send message</button></div>
+        <div class="form-msg" id="msg" role="status" aria-live="polite" hidden></div>
+      </form>
+
+      <aside class="aside">
+        <div class="photo"><img src="images/lounge-owners.png" alt="Owners and cats relaxing in the Pawllywood lounge" loading="lazy"></div>
+        <h2>Find us</h2>
+        <p>We are based in the Klang Valley, Malaysia. Our priority neighbourhoods are:</p>
+        <ul>
+          <li>Mont Kiara and Bangsar</li>
+          <li>Petaling Jaya and Subang</li>
+          <li>Damansara Heights and Cheras</li>
+        </ul>
+        <p>Street address and opening details will be added here once they are confirmed.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section velvet faq">
+    <div class="wrap">
+      <div class="section-head"><h2>Questions we get asked</h2></div>
+      <div style="max-width:52rem;color:var(--cream)">
+        <details><summary style="color:var(--cream)">How do I join the Club?</summary><p style="color:rgba(255,244,224,.86)">Choose a membership tier: Paw Star, VIP Paw or Pawllywood Royalty. Club membership runs from RM49 to RM129 a month, and you can upgrade anytime. An event ticket at RM80 to RM90 is an easy way to try the Club first.</p></details>
+        <details><summary style="color:var(--cream)">How do you keep cats safe and calm?</summary><p style="color:rgba(255,244,224,.86)">Cats relax in supervised zones with trained staff, vaccination checks and controlled capacity, so shared spaces stay calm.</p></details>
+        <details><summary style="color:var(--cream)">Are the movie posters made by AI?</summary><p style="color:rgba(255,244,224,.86)">Yes. Our AI creates each poster from your pet's photo, and we always label AI-generated content clearly.</p></details>
+        <details><summary style="color:var(--cream)">Will you open outside the Klang Valley?</summary><p style="color:rgba(255,244,224,.86)">That is the plan. We start in the Klang Valley, then expand to Johor Bahru and Penang.</p></details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img src="images/logo.png" alt="Pawllywood" width="480" height="136">
+        <p>A luxury pet lifestyle brand based in the Klang Valley, Malaysia.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="prompt-library.html">Prompt Library</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Visit</h3>
+        <ul>
+          <li>Klang Valley, Malaysia</li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">Pawllywood is a fictional company created for a group project on AI tools. Images on this site are AI-generated.</p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.getElementById('nav-links');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>
+
+<script>
+  (function () {
+    // Set this to a form service URL (for example a Formspree endpoint) to send messages to an inbox.
+    var FORM_ENDPOINT = '';
+    var form = document.getElementById('enquiry');
+    var msg = document.getElementById('msg');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var missing = [];
+      ['name', 'email', 'topic', 'message'].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (!el.value.trim()) missing.push(el.previousElementSibling.textContent.toLowerCase());
+      });
+      msg.hidden = false;
+      if (missing.length) {
+        msg.textContent = 'Please fill in: ' + missing.join(', ') + '.';
+        return;
+      }
+      var email = document.getElementById('email').value;
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+        msg.textContent = 'Please enter a valid email address.';
+        return;
+      }
+      var first = document.getElementById('name').value.trim().split(' ')[0];
+      if (FORM_ENDPOINT) {
+        fetch(FORM_ENDPOINT, { method: 'POST', headers: { 'Accept': 'application/json' }, body: new FormData(form) })
+          .then(function (r) {
+            if (!r.ok) throw new Error();
+            msg.textContent = 'Thank you, ' + first + '. Your message has been sent.';
+            form.reset();
+          })
+          .catch(function () { msg.textContent = 'Sorry, something went wrong. Please try again in a moment.'; });
+      } else {
+        msg.textContent = 'Thank you, ' + first + '. This form is not connected to an inbox yet, so your message has not been sent.';
+      }
+    });
+  })();
+</script>
+</body>
+</html>
